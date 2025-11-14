@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Drawing App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Advanced Drawing App</h1>
+<div id="controls">
+    Brush Color: <input type="color" id="colorPicker" value="#000000">
+    Brush Size: <input type="number" id="brushSize" value="5" min="1" max="50">
+    <button id="clearBtn">Clear Canvas</button>
+    <button id="undoBtn">Undo Line</button>
+</div>
+<canvas id="drawingCanvas" width="800" height="500"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
